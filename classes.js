@@ -28,14 +28,3 @@ class Rect {
 const rect1 = new Rect(20, 20);
 const rect2 = new Rect(30, 10);
 const rect3 = new Rect(40, 20);
-
-const test = rect1.calcArea.bind(rect1);
-test();
-rect1._width;
-
-//console.log(rect1);
-const person1 = {
-  name: "Ivo",
-  age: 31,
-};
-const person2 = Object.assign({}, person1);
